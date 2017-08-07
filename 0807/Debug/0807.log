@@ -1,0 +1,22 @@
+﻿빌드 시작: 2017-08-07 오후 3:36:04
+     1>2 노드의 "D:\sojun\0807\0807\0807.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\sojun\0807\0807\main.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+     1>d:\sojun\0807\0807\main.cpp(36): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 'fscanf' 선언을 참조하십시오.
+     1>d:\sojun\0807\0807\main.cpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 'fscanf' 선언을 참조하십시오.
+     1>d:\sojun\0807\0807\main.cpp(58): warning C4258: 'i' : for 루프의 정의가 무시되고 바깥쪽 범위의 정의가 사용됩니다.
+                 d:\sojun\0807\0807\main.cpp(45) : 'i' 정의가 무시됩니다.
+                 d:\sojun\0807\0807\main.cpp(33) : 'i' 정의가 사용됩니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\sojun\0807\Debug\0807.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\sojun\0807\Debug\0807.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\sojun\0807\Debug\0807.lib" /MACHINE:X86 Debug\main.obj
+         0807.vcxproj -> D:\sojun\0807\Debug\0807.exe
+     1>"D:\sojun\0807\0807\0807.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.33
